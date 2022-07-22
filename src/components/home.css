@@ -1,0 +1,37 @@
+.home-main {
+    height: calc(100vh - 12px);
+    width: calc(100vw - 12px);
+    background: white;
+}
+
+.setup-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.setup-input {
+    outline: none;
+    height: 25px;
+    font-size: 20px;
+    margin: 10px;
+    border: 2px solid black;   
+    padding-left:2px;
+}
+
+.setup-button {
+    background: white;
+    outline: none;
+    border: 2px solid black;
+    height: 25px;
+    font-size: 20px;
+    width: 100px;
+}
+
+.gist-main {
+    text-align: left;
+    height: calc(100vh - 100px);
+    overflow: scroll;
+    padding: 5px;
+}
